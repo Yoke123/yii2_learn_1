@@ -10,4 +10,5 @@
 3. github安装
 
 **效果图如下：**
-[1](http://www.yiichina.com//docs/guide/2.0/images/start-app-installed.png)
+
+[http://www.yiichina.com//docs/guide/2.0/images/start-app-installed.png](http://www.yiichina.com//docs/guide/2.0/images/start-app-installed.png)
