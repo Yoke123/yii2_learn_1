@@ -11,4 +11,4 @@
 
 **效果图如下：**
 
-![](http://www.yiichina.com//docs/guide/2.0/images/start-app-installed.png)
+![效果图](http://www.yiichina.com//docs/guide/2.0/images/start-app-installed.png)
