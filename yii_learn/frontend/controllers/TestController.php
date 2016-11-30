@@ -8,7 +8,7 @@ class TestController extends Controller
 {
 	public function actionTest()
 	{	
-		//test
+		//测试测试测试
 		return $this->render('test');
 	}
 }
