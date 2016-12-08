@@ -1,6 +1,8 @@
 <?php 
 
 use yii\jui\DatePicker;
+use yii\helpers\Html;
+
 echo "test <br />";
 
 echo DatePicker::widget([
@@ -10,3 +12,5 @@ echo DatePicker::widget([
 			'dataFormat' => 'yy-mm-dd',
 		],
 ]);
+
+echo Html::button('button', ['class' => 'btn btn-success']);
