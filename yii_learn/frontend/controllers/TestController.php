@@ -8,7 +8,7 @@ class TestController extends Controller
 {
 	public function actionTest()
 	{	
-		//test
+		//test 你好 程序
 		return $this->render('test');
 	}
 }
