@@ -11,4 +11,10 @@ class TestController extends Controller
 		//test 你好 程序
 		return $this->render('test');
 	}
+
+	public function actionIndex($name)
+	{
+		// echo "Hello " . $name;
+		return $this->render('index', ['name' => $name]);
+	}
 }
