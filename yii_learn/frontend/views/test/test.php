@@ -99,3 +99,7 @@ $this->options['full_name'] =
 </body>
 </html>
 
+<<<<<<< HEAD
+=======
+//=_=
+>>>>>>> master
