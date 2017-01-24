@@ -33,7 +33,7 @@
 //                  不见满街漂亮妹，哪个归得程序员？
  */
 
-declare (strict_types = 1);
+// declare (strict_types = 1);
 
 use frontend\widgets\test\Test;
 use yii\helpers\Html;
@@ -69,37 +69,124 @@ function getHtmlContents($url)
 
 // getHtmlContents('www.manks.top');
 
-echo "坑爹了";
+// echo "坑爹了";
 
-$aa = "http://www.frs.com/Rs-News/Runescape-Celebration-Lamps-+10%-XP-for-Everyone.html";
-echo urldecode($aa);
+// $aa = "http://www.frs.com/Rs-News/Runescape-Celebration-Lamps-+10%-XP-for-Everyone.html";
+// echo urldecode($aa);
 
-function foo($a)
-{
-    return $a;
-}
+// function foo($a)
+// {
+//     return $a;
+// }
 
-foo(1);
+// foo(1);
 
-$this->options['full_name'] =
-    ($this->options['server_relevant']['en_name'] ? $this->options['server_relevant']['en_name'] : reset($this->options['serverorcamp'])['en_name']) . "&nbsp;" . $tmp;
+// $this->options['full_name'] =
+//     ($this->options['server_relevant']['en_name'] ? $this->options['server_relevant']['en_name'] : reset($this->options['serverorcamp'])['en_name']) . "&nbsp;" . $tmp;
 
 ?>
 
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html>
 <head>
-	<title>test</title>
+    <title>test</title>
 </head>
 <body>
-	<h1>test</h1>
-	<?php if ($aa): ?>
-		<p>This is p tags</p>
-	<?php endif;?>
+    <h1>test</h1>
+    <?php //if ($aa): ?>
+        <p>This is p tags</p>
+    <?php //endif;?>
 </body>
-</html>
+</html> -->
 
-<<<<<<< HEAD
+<!-- <<<<<<< HEAD
 =======
 //=_=
->>>>>>> master
+>>>>>>> master -->
+
+
+<?php
+error_reporting(E_ERROR);
+// error_reporting(E_ALL);
+// static $x = "test";
+
+// function myTest()
+// {
+//     global $x;
+//     var_dump($x);
+// }
+
+// myTest();
+// echo "{$x}", "<br>";
+
+// $arr = [1, 2, 3, 4, 5];
+// print_r($arr);
+// print_r(reset($arr));
+// echo "<br>";
+// define("GG", "Hello World!");
+// echo GG;
+// $arr2 = [6, 7, 8, 9, 10];
+// var_dump($arr == $arr2);
+
+// echo count($arr2) . "<br>";
+// rsort($arr2);
+// foreach ($arr2 as $key => $value) {
+//     echo $key . "=>" . $value . "<br>";
+// }
+
+// echo "<pre>";
+// var_dump($_SERVER);
+// var_dump($_REQUEST);
+// var_dump($_POST);
+// var_dump($_GET);
+
+// $i = 1;
+// while ($i <= 10) {
+//     echo $i . " ";
+//     $i++;
+// }
+
+// do {
+//     $i++;
+//     echo $i . " ";
+// } while ($i <= 10);
+
+// echo __LINE__;
+// echo "<br>";
+// echo __FILE__;
+// echo "<br>";
+// echo __DIR__;
+// echo "<br>";
+// echo dirname(__FILE__);
+// function fun()
+// {
+//     echo __FUNCTION__;
+// }
+
+/**
+ * Trait 例子
+ */
+class Base
+{
+    public function sayHello()
+    {
+        echo "Hello";
+    }
+}
+
+trait SayWorld
+{
+    public function sayHello()
+    {
+        parent::sayHello();
+        echo "World!";
+    }
+}
+
+class MyHello extends Base
+{
+    use SayWorld;
+}
+
+$obj = new MyHello();
+$obj->sayHello();
