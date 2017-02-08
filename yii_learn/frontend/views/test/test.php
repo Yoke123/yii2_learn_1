@@ -190,3 +190,67 @@ class MyHello extends Base
 
 $obj = new MyHello();
 $obj->sayHello();
+
+// for ($i = 0; $i < 10; $i++) {
+//     echo "<h1>Hello World! o(*≧▽≦)ツ┏━┓</h1>";
+// }
+$a = "1";
+if ($a) {
+    echo "{$a}有值。";
+}
+
+echo "<br />";
+
+?>
+
+<!-- ==================================================== -->
+<br />
+<code>
+    var i;
+    for (i = 0; i < 10; i++) {
+        setTimeout(function() {
+            console.log(i);
+        }, 1000);
+    }
+    console.log(i + "tt");
+</code>
+
+<br />
+<kbd>Hello World!</kbd>
+<br />
+<tt>Hello World!</tt>
+<br />
+<samp>Hello World!</samp>
+<br />
+<var>Hello World!</var>
+
+<div>
+    <div>
+        <h2><kbd>上联：</kbd></h2>
+        <h3><kbd>一个项目两台电脑三餐盒饭只为四千工资搞得五脏俱伤六神无主仍然七点起床八点开会处理九个BUG十分辛苦。</kbd></h3>
+    </div>
+
+    <div>
+        <h2><kbd>下联：</kbd></h2>
+        <h3><kbd>十年编程九年加班八面无光忙得七窍生烟到头六亲不认五体投地依旧四处奔波三更半夜只为两个臭钱一生孤苦。</kbd></h3>
+    </div>
+
+    <div align="center">
+        <h1><kbd>横批：</kbd><kbd>IT人生</kbd></h1>
+    </div>
+</div>
+
+
+
+
+<script type="text/javascript">
+    var i;
+    for (i = 0; i < 10; i++) {
+        setTimeout(function() {
+            console.log(i);
+        }, 1000);
+    }
+    console.log(i + "tt");
+</script>
+
+
